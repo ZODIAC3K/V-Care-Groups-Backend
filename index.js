@@ -9,9 +9,9 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-app.use("/", (req, res) => {
-  res.send("Backend is running");
-});
+// app.use("/", (req, res) => {
+//   res.send("Backend is running");
+// });
 
 
 
